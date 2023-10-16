@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fb9eebc-7867-48b3-a225-d33b1dc6f988" name="Changes" comment="Lambda">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BiFunctionalGenerics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ConsumerPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FirstLambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FunctionalGenerics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MathsLambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MyDoMathsFuncInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MyFuncInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MyFuncInterfaceReturn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MyFuncInterfaceStringLen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PredefinedFunctionalInterfaces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BasicArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MyFunctionPractice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BeforeLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BeforeLambda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -71,9 +62,9 @@
       <recent name="C:\Users\leste\IdeaProjects\FunctionalProgramming" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PredefinedFunctionalInterfaces">
-    <configuration name="BeforeLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.BeforeLambda" />
+  <component name="RunManager" selected="Application.BasicArrays">
+    <configuration name="BasicArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.BasicArrays" />
       <module name="FunctionalProgramming" />
       <extension name="coverage">
         <pattern>
@@ -139,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BasicArrays" />
         <item itemvalue="Application.PredefinedFunctionalInterfaces" />
         <item itemvalue="Application.MyFuncInterfaceReturn" />
         <item itemvalue="Application.MathsLambda" />
         <item itemvalue="Application.FirstLambda" />
-        <item itemvalue="Application.BeforeLambda" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +146,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697089681619</updated>
-      <workItem from="1697089683156" duration="17678000" />
+      <workItem from="1697089683156" duration="22214000" />
     </task>
     <task id="LOCAL-00001" summary="Back to basics Functional Learning">
       <created>1697093310165</created>
@@ -171,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697361592397</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Lambda">
+      <created>1697482389904</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697482389904</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,5 +179,16 @@
     <MESSAGE value="Back to basics Functional Learning" />
     <MESSAGE value="Lambda" />
     <option name="LAST_COMMIT_MESSAGE" value="Lambda" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/BasicArrays.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
