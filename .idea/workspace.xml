@@ -4,10 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fb9eebc-7867-48b3-a225-d33b1dc6f988" name="Changes" comment="Back to basics Functional Learning">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BeforeLambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MyRunnableObject.java" afterDir="false" />
+    <list default="true" id="4fb9eebc-7867-48b3-a225-d33b1dc6f988" name="Changes" comment="Lambda">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BiFunctionalGenerics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ConsumerPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FirstLambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FunctionalGenerics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MathsLambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MyDoMathsFuncInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MyFuncInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MyFuncInterfaceReturn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MyFuncInterfaceStringLen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PredefinedFunctionalInterfaces.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BeforeLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BeforeLambda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -61,20 +71,7 @@
       <recent name="C:\Users\leste\IdeaProjects\FunctionalProgramming" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BeforeLambda">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.App" />
-      <module name="FunctionalProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PredefinedFunctionalInterfaces">
     <configuration name="BeforeLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.BeforeLambda" />
       <module name="FunctionalProgramming" />
@@ -88,10 +85,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FirstLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.FirstLambda" />
+      <module name="FunctionalProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathsLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.MathsLambda" />
+      <module name="FunctionalProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyFuncInterfaceReturn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.MyFuncInterfaceReturn" />
+      <module name="FunctionalProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PredefinedFunctionalInterfaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.PredefinedFunctionalInterfaces" />
+      <module name="FunctionalProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PredefinedFunctionalInterfaces" />
+        <item itemvalue="Application.MyFuncInterfaceReturn" />
+        <item itemvalue="Application.MathsLambda" />
+        <item itemvalue="Application.FirstLambda" />
         <item itemvalue="Application.BeforeLambda" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -103,7 +155,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697089681619</updated>
-      <workItem from="1697089683156" duration="5206000" />
+      <workItem from="1697089683156" duration="17678000" />
     </task>
     <task id="LOCAL-00001" summary="Back to basics Functional Learning">
       <created>1697093310165</created>
@@ -112,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697093310165</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Lambda">
+      <created>1697361592397</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697361592397</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +179,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Back to basics Functional Learning" />
-    <option name="LAST_COMMIT_MESSAGE" value="Back to basics Functional Learning" />
+    <MESSAGE value="Lambda" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lambda" />
   </component>
 </project>

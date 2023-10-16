@@ -24,9 +24,17 @@ public class BeforeLambda {
 
 
 //    Thread needs to be supplied with an object that implements Runnable interface
-//    The Runnable interface is a functional interface - the lambda provides the implementation
+//    The Runnable interface is a functional interface - the lambda provides the implementation - a single abstract method
+//    Properties - all methods are public, return type known using type inference
+//    Name of the function - not needed, a functional interface has one method only
+//    Parameters list
+//    Body of the function
+//    Return type
     public static void main(String[] args) {
-        Thread t = new Thread(()->System.out.println("my message here"));
+
+        Runnable myRunnable = ()->System.out.println("my message here");
+
+        Thread t = new Thread(myRunnable);
         t.start();
     }
 
